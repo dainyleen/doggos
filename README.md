@@ -1,6 +1,6 @@
 # DoggoSelect
 
-Creating a simple dog gallery app using the dog api 
+Creating a simple dog gallery app using a public api - https://dog.ceo/dog-api/
 
 ## Check it out
 
