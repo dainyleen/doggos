@@ -67,7 +67,7 @@ function fetchBreedImage() {
 
 select.addEventListener('change', fetchBreedImage);
 card.addEventListener('click', fetchBreedImage);
-// form.addEventListener('submit', postData)
+form.addEventListener('submit', postData)
 
 
 //  POST DATA
