@@ -9,3 +9,4 @@ https://dainyleen.github.io/doggos
 ### Tech Talk
 
 1. I am using Treehouse's custom css and the logo they have created for DoggoSelect app
+2. Practiced fetch handling methods
