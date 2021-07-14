@@ -34,6 +34,13 @@ function generateImage(data) {
   card.innerHTML = html;
 }
 
+function fetchBreedImage() {
+  const breed = select.value
+  const img = card.querySelector('img')
+  const p = card.querySelector('p')
+
+  fetchData(`'https://dog.ceo/api/breed/${breed}/images/random`)
+}
 
 //  EVENT LISTENERS
 
