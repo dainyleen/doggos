@@ -2,9 +2,7 @@ const select = document.getElementById('breeds');
 const card = document.querySelector('.card'); 
 const form = document.querySelector('form');
 
-// ------------------------------------------
 //  FETCH FUNCTIONS
-// ------------------------------------------
 
 function fetchData(url) {
   return fetch(url)
@@ -25,9 +23,7 @@ Promise.all([
   generateImage(randomImage)
 })
 
-// ------------------------------------------
 //  HELPER FUNCTIONS
-// ------------------------------------------
 
 function checkStatus(response) {
   if (response.ok) {
@@ -66,13 +62,13 @@ function fetchBreedImage() {
     })
 }
 
-// ------------------------------------------
+
 //  EVENT LISTENERS
-// ------------------------------------------
+
 select.addEventListener('change', fetchBreedImage);
 card.addEventListener('click', fetchBreedImage);
 
-// ------------------------------------------
+
 //  POST DATA
-// ------------------------------------------
+
 
