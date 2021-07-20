@@ -4,7 +4,7 @@ Creating a simple dog gallery app using a public api - https://dog.ceo/dog-api/
 
 **YOU CAN SUBMIT YOUR NAME AND COMMENT on the screen and open up your DEVTOOLS and VIEW them all under the CONSOLE
 
-## Check it out
+## GitHub Page
 
 https://dainyleen.github.io/doggos
 
